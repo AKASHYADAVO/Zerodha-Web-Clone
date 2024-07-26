@@ -19,7 +19,15 @@ function Team() {
             
             <div className='col-6'style={{textAlign:"center"}}>
 
-<img  src='images/AKASH.jpeg ' style={{borderRadius:"100%", width:"30%"}}/>
+
+
+            <img 
+          src={`${process.env.PUBLIC_URL}/images/AKASH.jpeg`} 
+          alt="AKASH" 
+          style={{ borderRadius: "100%", width: "30%" }} 
+        />             
+
+{/* <img  src='images/AKASH.jpeg ' style={{borderRadius:"100%", width:"30%"}}/> */}
 
 <div className='container mt-3'>
     <h3>AKASH YADAV</h3>
